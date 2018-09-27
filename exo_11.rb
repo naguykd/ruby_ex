@@ -2,8 +2,8 @@
 
 puts "Donne moi un nombre"
 print ">"
-user_answer = gets.chomp
-
-i.times do 
+a = gets.chomp
+b = a.to_i
+b.times do 
 	puts "Salut, ça farte ?"
 end
